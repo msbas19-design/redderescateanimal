@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Animales en adopción · Fundación Red de Rescate Animal EC</title>
+<meta name="description" content="Perros y gatos rescatados que buscan una familia. Todos se entregan vacunados, desparasitados y esterilizados.">
+<meta name="theme-color" content="#2433E8">
+<meta property="og:title" content="Animales en adopción · Fundación Red de Rescate Animal EC">
+<meta property="og:description" content="Perros y gatos rescatados que buscan una familia. Todos se entregan vacunados, desparasitados y esterilizados.">
+<meta property="og:image" content="assets/img/rescate-abrazo.jpg">
+<meta property="og:locale" content="es_EC">
+<link rel="icon" href="assets/img/isotipo-reducido.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&amp;display=swap">
+<link rel="preload" href="assets/fonts/pilcrow-rounded-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+<div class="contenedor cabecera__fila">
+<a class="marca" href="index.html" aria-label="Fundación Red de Rescate Animal EC, inicio">
+<img src="assets/img/isotipo-color.svg" alt="" width="54" height="54">
+<span class="marca__texto"><span class="marca__fundacion">FUNDACIÓN</span><span class="marca__nombre">Red de Rescate Animal</span></span>
+</a>
+<nav class="nav" aria-label="Principal">
+<button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú"><svg class="icono-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><svg class="icono-cerrar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+<div class="nav__panel" id="menu-principal">
+<ul class="nav__lista">
+<li><a href="index.html">Inicio</a></li>
+<li><a href="adopta.html" aria-current="page">Adopta</a></li>
+<li><a href="ayuda.html">Cómo ayudar</a></li>
+<li><a href="contacto.html">Contacto</a></li>
+</ul>
+<a class="boton boton--naranja" href="ayuda.html#donar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7.5-4.6-9.2-9.4C1.7 7.4 3.9 4.5 7 4.5c2 0 3.4 1.1 5 3 1.6-1.9 3-3 5-3 3.1 0 5.3 2.9 4.2 6.1C19.5 15.4 12 20 12 20z"/></svg>Donar</a>
+</div>
+</nav>
+</div>
+</header>
+<main id="contenido">
+<section class="cabeza-pagina">
+<img class="cabeza-pagina__marca-agua" src="assets/img/isotipo-negativo.svg" alt="" aria-hidden="true">
+<div class="contenedor" style="position:relative">
+<span class="etiqueta">Adopción responsable</span>
+<h1>Encuentra a tu compañero</h1>
+<p class="lead">Todos nuestros animales se entregan vacunados, desparasitados y esterilizados. Conócelos y escríbenos para coordinar una visita.</p>
+</div>
+</section>
+
+<section class="seccion">
+<div class="contenedor">
+<div class="filtros" role="group" aria-label="Filtrar animales">
+<span class="filtros__titulo">Mostrar:</span>
+<button class="filtro" type="button" data-filtro="todos" aria-pressed="true">Todos</button>
+<button class="filtro" type="button" data-filtro="perro" aria-pressed="false">Perros</button>
+<button class="filtro" type="button" data-filtro="gato" aria-pressed="false">Gatos</button>
+<button class="filtro" type="button" data-filtro="cachorro" aria-pressed="false">Cachorros</button>
+<button class="filtro" type="button" data-filtro="mayor" aria-pressed="false">Adultos mayores</button>
+<span class="filtros__conteo" data-conteo aria-live="polite">6 animales</span>
+</div>
+<div class="animales">
+<!-- EJEMPLO: reemplazar con datos reales -->
+<article class="animal" data-especie="perro" data-etiquetas="adulto">
+<div class="animal__foto"><img class="foto" src="assets/img/rescate-abrazo.jpg" alt="Luna, perro en adopción" loading="lazy" width="600" height="450"><span class="pildora pildora--azul animal__especie">Perro</span></div>
+<div class="animal__cuerpo">
+<h3>Luna</h3>
+<ul class="animal__datos" aria-label="Datos de Luna"><li>Hembra</li><li>Adulta · 3 años</li><li>Mediana</li></ul>
+<p>Llegó con una pata lastimada. Hoy está sana, esterilizada y lista para conocer a su familia.</p>
+<a class="boton boton--azul" href="contacto.html?animal=Luna">Quiero conocer a Luna</a>
+</div>
+</article><!-- EJEMPLO: reemplazar con datos reales -->
+<article class="animal" data-especie="perro" data-etiquetas="cachorro">
+<div class="animal__foto animal__foto--vacia animal__foto--naranja"><img src="assets/img/isotipo-tinta.svg" alt="" loading="lazy" width="120" height="120"><span class="animal__aviso">Foto próximamente</span><span class="pildora pildora--azul animal__especie">Perro</span></div>
+<div class="animal__cuerpo">
+<h3>Canela</h3>
+<ul class="animal__datos" aria-label="Datos de Canela"><li>Hembra</li><li>Cachorra · 4 meses</li><li>Pequeña</li></ul>
+<p>Juguetona y curiosa. Busca una familia con tiempo para enseñarle y salir a pasear.</p>
+<a class="boton boton--azul" href="contacto.html?animal=Canela">Quiero conocer a Canela</a>
+</div>
+</article><!-- EJEMPLO: reemplazar con datos reales -->
+<article class="animal" data-especie="gato" data-etiquetas="adulto">
+<div class="animal__foto animal__foto--vacia animal__foto--azul"><img src="assets/img/isotipo-negativo.svg" alt="" loading="lazy" width="120" height="120"><span class="animal__aviso">Foto próximamente</span><span class="pildora pildora--naranja animal__especie">Gato</span></div>
+<div class="animal__cuerpo">
+<h3>Tomás</h3>
+<ul class="animal__datos" aria-label="Datos de Tomás"><li>Macho</li><li>Adulto · 2 años</li><li>Mediano</li></ul>
+<p>Tranquilo y cariñoso. Ideal para departamento; se lleva bien con otros gatos.</p>
+<a class="boton boton--azul" href="contacto.html?animal=Tomás">Quiero conocer a Tomás</a>
+</div>
+</article><!-- EJEMPLO: reemplazar con datos reales -->
+<article class="animal" data-especie="gato" data-etiquetas="cachorro">
+<div class="animal__foto animal__foto--vacia"><img src="assets/img/isotipo-color.svg" alt="" loading="lazy" width="120" height="120"><span class="animal__aviso">Foto próximamente</span><span class="pildora pildora--naranja animal__especie">Gato</span></div>
+<div class="animal__cuerpo">
+<h3>Pelusa</h3>
+<ul class="animal__datos" aria-label="Datos de Pelusa"><li>Hembra</li><li>Cachorra · 3 meses</li><li>Pequeña</li></ul>
+<p>Rescatada de la calle junto a sus hermanos. Ronronea apenas la cargas.</p>
+<a class="boton boton--azul" href="contacto.html?animal=Pelusa">Quiero conocer a Pelusa</a>
+</div>
+</article><!-- EJEMPLO: reemplazar con datos reales -->
+<article class="animal" data-especie="perro" data-etiquetas="adulto mayor">
+<div class="animal__foto animal__foto--vacia animal__foto--crema"><img src="assets/img/isotipo-color.svg" alt="" loading="lazy" width="120" height="120"><span class="animal__aviso">Foto próximamente</span><span class="pildora pildora--azul animal__especie">Perro</span></div>
+<div class="animal__cuerpo">
+<h3>Rocky</h3>
+<ul class="animal__datos" aria-label="Datos de Rocky"><li>Macho</li><li>Adulto · 6 años</li><li>Grande</li></ul>
+<p>Un gigante noble. Le encanta descansar al sol y que le rasquen las orejas.</p>
+<a class="boton boton--azul" href="contacto.html?animal=Rocky">Quiero conocer a Rocky</a>
+</div>
+</article><!-- EJEMPLO: reemplazar con datos reales -->
+<article class="animal" data-especie="gato" data-etiquetas="adulto mayor">
+<div class="animal__foto animal__foto--vacia animal__foto--naranja"><img src="assets/img/isotipo-tinta.svg" alt="" loading="lazy" width="120" height="120"><span class="animal__aviso">Foto próximamente</span><span class="pildora pildora--tinta animal__especie">Gato</span></div>
+<div class="animal__cuerpo">
+<h3>Mía</h3>
+<ul class="animal__datos" aria-label="Datos de Mía"><li>Hembra</li><li>Adulta · 8 años</li><li>Mediana</li></ul>
+<p>Sabia y serena. Busca un hogar calmado donde pasar sus mejores años.</p>
+<a class="boton boton--azul" href="contacto.html?animal=Mía">Quiero conocer a Mía</a>
+</div>
+</article>
+</div>
+<p class="sin-resultados" hidden>Por ahora no tenemos animales en esta categoría. ¡Vuelve pronto o síguenos en Instagram!</p>
+</div>
+</section>
+
+<section class="seccion seccion--blanca">
+<div class="contenedor">
+<div class="seccion__cabeza">
+<div>
+<span class="etiqueta">Paso a paso</span>
+<h2>Así funciona<br>la adopción</h2>
+</div>
+<p>Queremos que cada adopción sea para toda la vida, por eso acompañamos a la familia antes y después.</p>
+</div>
+<div class="pilares" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
+<article class="pilar pilar--crema"><span class="pilar__num" style="color:var(--azul)">01</span><h3>Escríbenos</h3><p>Cuéntanos a quién quieres conocer y un poco sobre tu hogar y tu familia.</p></article>
+<article class="pilar pilar--cielo"><span class="pilar__num">02</span><h3>Entrevista</h3><p>Conversamos para asegurarnos de que el animal y tu familia sean una buena pareja.</p></article>
+<article class="pilar pilar--naranja"><span class="pilar__num">03</span><h3>Visita</h3><p>Coordinamos un encuentro para que se conozcan con calma.</p></article>
+<article class="pilar pilar--azul"><span class="pilar__num">04</span><h3>¡Bienvenido a casa!</h3><p>Firmamos el compromiso de adopción y te acompañamos en los primeros meses.</p></article>
+</div>
+</div>
+</section>
+
+<section class="seccion">
+<div class="contenedor dividido" style="align-items:start">
+<div class="dividido__texto">
+<span class="etiqueta">Antes de adoptar</span>
+<h2>Requisitos</h2>
+<ul class="lista-check">
+<li><svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="14" fill="#FF8A2B"/><path d="M8.5 14.5l3.6 3.5 7.4-8" fill="none" stroke="#12154D" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ser mayor de edad y presentar tu cédula.</span></li>
+<li><svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="14" fill="#FF8A2B"/><path d="M8.5 14.5l3.6 3.5 7.4-8" fill="none" stroke="#12154D" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Que todas las personas del hogar estén de acuerdo.</span></li>
+<li><svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="14" fill="#FF8A2B"/><path d="M8.5 14.5l3.6 3.5 7.4-8" fill="none" stroke="#12154D" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Contar con un espacio seguro, con cerramiento o mallas si es necesario.</span></li>
+<li><svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="14" fill="#FF8A2B"/><path d="M8.5 14.5l3.6 3.5 7.4-8" fill="none" stroke="#12154D" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Comprometerte con su alimentación, salud veterinaria y cariño de por vida.</span></li>
+<li><svg viewBox="0 0 28 28" aria-hidden="true"><circle cx="14" cy="14" r="14" fill="#FF8A2B"/><path d="M8.5 14.5l3.6 3.5 7.4-8" fill="none" stroke="#12154D" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Aceptar visitas de seguimiento de la fundación.</span></li>
+</ul>
+</div>
+<div class="dividido__texto">
+<span class="etiqueta">Preguntas frecuentes</span>
+<div class="faq">
+<details><summary>¿La adopción tiene costo?</summary><div><p>[Indicar si se pide un aporte de adopción y qué cubre, por ejemplo vacunas y esterilización.]</p></div></details>
+<details><summary>¿Puedo adoptar si vivo en departamento?</summary><div><p>Sí. Te ayudamos a elegir un compañero cuyo tamaño y energía se adapten a tu espacio y tu rutina.</p></div></details>
+<details><summary>¿Entregan animales en otras ciudades?</summary><div><p>[Indicar en qué ciudades o provincias se realizan adopciones.]</p></div></details>
+<details><summary>¿Qué pasa si la adopción no funciona?</summary><div><p>Escríbenos. Nunca abandones a un animal: la fundación lo recibe de vuelta y busca otra familia.</p></div></details>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="pie">
+<div class="contenedor">
+<div class="pie__grid">
+<div>
+<div class="pie__marca">
+<img src="assets/img/isotipo-blanco.svg" alt="" width="72" height="72">
+<div class="marca__texto"><span class="marca__fundacion">FUNDACIÓN</span><span class="marca__nombre">Red de Rescate Animal <span class="ec">EC</span></span></div>
+</div>
+<p class="pie__lema">Rescatamos · Rehabilitamos · Amamos</p>
+</div>
+<div>
+<h2>Explora</h2>
+<ul>
+<li><a href="adopta.html">Animales en adopción</a></li>
+<li><a href="ayuda.html#donar">Donar</a></li>
+<li><a href="ayuda.html#voluntariado">Ser voluntario</a></li>
+<li><a href="ayuda.html#hogar-temporal">Hogar temporal</a></li>
+</ul>
+</div>
+<div>
+<h2>Contacto</h2>
+<ul>
+<li><a href="https://www.instagram.com/red_derescateanimal/" rel="noopener">@red_derescateanimal</a></li>
+<li>[CORREO]</li>
+<li>[TELÉFONO / WHATSAPP]</li>
+<li>[CIUDAD], Ecuador</li>
+</ul>
+</div>
+</div>
+<div class="pie__base">
+<span>© <span data-anio>2026</span> Fundación Red de Rescate Animal EC</span>
+<span>Adopta. No compres.</span>
+</div>
+</div>
+</footer>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
